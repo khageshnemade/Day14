@@ -2,26 +2,18 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  
-  );
+// jsx wit single line
+let jsx1= <h1>Hello Worls</h1>
+let jsx2= (
+<a>
+<h1>Hello Wor</h1>
+<h1>Hello Wor</h1>
+</a>
+
+
+// jsx wit single line
+);
+return false ? jsx1 : jsx2;
 }
 
 export default App;
